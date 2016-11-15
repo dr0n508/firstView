@@ -6,6 +6,4 @@ $(document).ready(function () {
     $(".wrap-input input").focusout(function() {
         $(this).closest('.wrap-input').removeClass("focus-input");
     });
-
-
 });
