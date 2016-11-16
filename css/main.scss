@@ -33,7 +33,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   margin: 20px 0;
   &:hover {
     color: white;
-    background: #9bcf61;
+    opacity: .5;
   }
 }
 
@@ -100,6 +100,16 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   .logo {
     text-align: center;
     padding: 10px;
+  }
+}
+
+.logo-xs {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  img {
+    width: 80px;
+
   }
 }
 
@@ -192,7 +202,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 /*************DASHBOARD******************/
 /****************************************/
 .dashboard {
-  background: #f3f5f8;
+  background: #ceccce;
   padding-bottom: 50px;
 }
 
@@ -205,18 +215,27 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 }
 
 /*************ASIDE**********************/
+.avatar {
+
+  display: inline-block;
+  text-align: center;
+
+  //overflow: hidden;
+  img {
+    border: solid 5px white;
+    border-radius: 50%;
+    width: 90px;
+    height: auto;
+  }
+}
+
 .aside {
   background: url("../img/FS - Navigation BG.png") no-repeat 50% 50%;
   background-size: cover;
   padding: 100px 0 80px;
   .user {
-    .avatar {
-      text-align: center;
-      img {
-        width: 90px;
-        height: auto;
-      }
-    }
+    text-align: center;
+
     .name-user {
       font-size: 20px;
       text-align: center;
@@ -287,7 +306,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   padding-left: 0;
   padding-right: 0;
   p {
-    font-size: 20px;
+    font-size: 19px;
     color: #727272;
     line-height: 45px;
     text-align: center;
@@ -299,15 +318,10 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 .content-section {
   padding-right: 0;
   padding-left: 0;
-  .avatar {
-    background: #d5daea;
+  .wrap-avatar {
+    background: linear-gradient(-45deg, rgba(221, 228, 243, 1) 0%, rgba(215, 216, 234, 1) 100%);
     padding: 30px 0;
-    img {
-      width: 90px;
-      height: auto;
-      margin: 0 auto;
-      display: block;
-    }
+    text-align: center;
   }
   .header-list-options {
     color: #7c7c7c;
@@ -318,13 +332,20 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   .list-options {
     letter-spacing: 1px;
     li {
-      border-bottom: solid 1px #d5daea;
+
       a {
         background: white;
-        font-size: 16px;
+        font-size: 15px;
         color: #000;
         padding: 25px 30px;
         display: block;
+        border-bottom: solid 1px #888;
+        &:hover {
+          .key, .value, .icon{
+            text-decoration: none;
+            color: #d2b877;
+          }
+        }
         .key {
           float: left;
         }
@@ -352,15 +373,20 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   .logout a {
     margin-top: 30px;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     background: white;
     color: #000;
     padding: 30px;
     display: block;
     text-transform: uppercase;
-    border-bottom: solid 1px #d5daea;
+    border-bottom: solid 1px #888;
     text-decoration: none;
     letter-spacing: 1px;
+    &:hover {
+      text-decoration: none;
+      color: #d2b877;
+    }
+
   }
 }
 /******************/

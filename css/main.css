@@ -24,7 +24,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   margin: 20px 0; }
   .btn:hover {
     color: white;
-    background: #9bcf61; }
+    opacity: .5; }
 
 .header-login-sign-up {
   -webkit-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
@@ -79,6 +79,13 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .header-profile .logo {
     text-align: center;
     padding: 10px; }
+
+.logo-xs {
+  position: absolute;
+  top: 15px;
+  left: 0; }
+  .logo-xs img {
+    width: 80px; }
 
 .wrap-input {
   background: white;
@@ -156,7 +163,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 /*************DASHBOARD******************/
 /****************************************/
 .dashboard {
-  background: #f3f5f8;
+  background: #ceccce;
   padding-bottom: 50px; }
 
 .logo-profile {
@@ -166,20 +173,26 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     padding: 10px 0 15px; }
 
 /*************ASIDE**********************/
+.avatar {
+  display: inline-block;
+  text-align: center; }
+  .avatar img {
+    border: solid 5px white;
+    border-radius: 50%;
+    width: 90px;
+    height: auto; }
+
 .aside {
   background: url("../img/FS - Navigation BG.png") no-repeat 50% 50%;
   background-size: cover;
   padding: 100px 0 80px; }
-  .aside .user .avatar {
+  .aside .user {
     text-align: center; }
-    .aside .user .avatar img {
-      width: 90px;
-      height: auto; }
-  .aside .user .name-user {
-    font-size: 20px;
-    text-align: center;
-    padding: 15px 0;
-    color: white; }
+    .aside .user .name-user {
+      font-size: 20px;
+      text-align: center;
+      padding: 15px 0;
+      color: white; }
   .aside .copywrite {
     text-align: center;
     font-style: italic;
@@ -229,7 +242,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   padding-left: 0;
   padding-right: 0; }
   .header-current-window p {
-    font-size: 20px;
+    font-size: 19px;
     color: #727272;
     line-height: 45px;
     text-align: center;
@@ -239,38 +252,36 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .content-section {
   padding-right: 0;
   padding-left: 0; }
-  .content-section .avatar {
-    background: #d5daea;
-    padding: 30px 0; }
-    .content-section .avatar img {
-      width: 90px;
-      height: auto;
-      margin: 0 auto;
-      display: block; }
+  .content-section .wrap-avatar {
+    background: linear-gradient(-45deg, #dde4f3 0%, #d7d8ea 100%);
+    padding: 30px 0;
+    text-align: center; }
   .content-section .header-list-options {
     color: #7c7c7c;
     font-size: 16px;
     padding: 10px 30px; }
   .content-section .list-options {
     letter-spacing: 1px; }
-    .content-section .list-options li {
-      border-bottom: solid 1px #d5daea; }
-      .content-section .list-options li a {
-        background: white;
-        font-size: 16px;
-        color: #000;
-        padding: 25px 30px;
-        display: block; }
-        .content-section .list-options li a .key {
-          float: left; }
-        .content-section .list-options li a .value {
-          float: right;
-          color: #999999;
-          margin-right: 20px; }
-        .content-section .list-options li a .icon {
-          float: right;
-          line-height: 22px;
-          color: #999999; }
+    .content-section .list-options li a {
+      background: white;
+      font-size: 15px;
+      color: #000;
+      padding: 25px 30px;
+      display: block;
+      border-bottom: solid 1px #888; }
+      .content-section .list-options li a:hover .key, .content-section .list-options li a:hover .value, .content-section .list-options li a:hover .icon {
+        text-decoration: none;
+        color: #d2b877; }
+      .content-section .list-options li a .key {
+        float: left; }
+      .content-section .list-options li a .value {
+        float: right;
+        color: #999999;
+        margin-right: 20px; }
+      .content-section .list-options li a .icon {
+        float: right;
+        line-height: 22px;
+        color: #999999; }
   @media only screen and (max-width: 460px) {
     .content-section .list-options {
       letter-spacing: normal; }
@@ -279,15 +290,18 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .content-section .logout a {
     margin-top: 30px;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     background: white;
     color: #000;
     padding: 30px;
     display: block;
     text-transform: uppercase;
-    border-bottom: solid 1px #d5daea;
+    border-bottom: solid 1px #888;
     text-decoration: none;
     letter-spacing: 1px; }
+    .content-section .logout a:hover {
+      text-decoration: none;
+      color: #d2b877; }
 
 /******************/
 

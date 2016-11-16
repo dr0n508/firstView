@@ -1,3 +1,7 @@
+.container-fluid {
+  max-width: 1000px;
+}
+
 .navbar {
   margin-bottom: 0;
   border: none;
@@ -27,15 +31,8 @@
   margin-bottom: 0;
   padding: 10px;
   .user {
-    .avatar {
-      text-align: center;
-      img {
-        width: 50px;
-        height: auto;
-      }
-    }
+    text-align: center;
     .name-user {
-      text-align: center;
       padding: 15px 0;
       color: white;
     }
