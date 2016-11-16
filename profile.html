@@ -21,193 +21,157 @@
 </head>
 <body>
 
-<header>
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="col-sm-4 hidden-xs logo-profile">
-        <a href="#"><img src="img/FirstView-logo@2x.png" alt="first view logo"></a>
-      </div>
-      <div class="header-current-window col-sm-8">
-        <p>Profile</p>
-      </div>
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="col-sm-4 hidden-xs logo-profile">
+          <a href="#"><img src="img/FirstView-logo@2x.png" alt="first view logo"></a>
+        </div>
+        <div class="header-current-window col-sm-8">
+          <p>Profile</p>
+        </div>
 
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav visible-xs">
-          <li>
-            <div class="user">
-              <div class="avatar">
-                <img src="img/profile-pic-empty.png" alt="user profile image">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav visible-xs list-menu-dashboard">
+            <li>
+              <div class="user">
+                <div class="avatar">
+                  <img src="img/profile-pic-empty.png" alt="user profile image">
+                </div>
+                <p class="name-user">Eamonn</p>
               </div>
-              <p class="name-user">Eamonn</p>
-            </div>
-          </li>
-            <li>
-              <a href="#" class="active">
-                <span class="icon icon-profile-icon"></span>
-                Profile
-              </a>
             </li>
             <li>
-              <a href="#">
-                <span class="icon icon-stop-pin"></span>
-                Map
-              </a>
+              <a href="#" class="active"><span class="icon icon-profile-icon"></span>Profile</a>
             </li>
             <li>
-              <a href="#">
-                <span class="icon icon-notification-icon"></span>
-                Notification
-              </a>
+              <a href="#"><span class="icon icon-stop-pin"></span>Map</a>
+            </li>
+            <li class="pointer-notification">
+              <a href="#"><span class="icon icon-notification-icon"></span>Notification</a>
             </li>
             <li>
-              <a href="#">
-                <span class="icon icon-settings-icon"></span>
-                Settings
-              </a>
+              <a href="#"><span class="icon icon-settings-icon"></span>Settings</a>
             </li>
             <li>
-              <a href="#">
-                <span class="icon icon-help-icon"></span>
-                Help
-              </a>
+              <a href="#"><span class="icon icon-help-icon"></span>Help</a>
             </li>
             <li>
-              <a href="#">
-                <span class="icon icon-logout-icon"></span>
-                Log out
-              </a>
+              <a href="#"><span class="icon icon-logout-icon"></span>Log out</a>
             </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-</header>
-<section class="dashboard">
-  <div class="container">
-    <aside class="col-sm-4 hidden-xs">
-      <div class="user">
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
+
+  <section class="dashboard">
+    <div class="container">
+      <aside class="aside col-sm-4 hidden-xs">
+        <div class="user">
+          <div class="avatar">
+            <img src="img/profile-pic-empty.png" alt="user profile image">
+          </div>
+          <p class="name-user">Eamonn</p>
+        </div>
+
+        <nav class="menu-dashboard">
+          <ul class="list-menu-dashboard">
+            <li>
+              <a href="#" class="active"><span class="icon icon-profile-icon"></span>Profile</a>
+            </li>
+            <li>
+              <a href="#"><span class="icon icon-stop-pin"></span>Map</a>
+            </li>
+            <li class="pointer-notification">
+              <a href="#"><span class="icon icon-notification-icon"></span>Notification</a>
+            </li>
+            <li>
+              <a href="#"><span class="icon icon-settings-icon"></span>Settings</a>
+            </li>
+            <li>
+              <a href="#"><span class="icon icon-help-icon"></span>Help</a>
+            </li>
+            <li>
+              <a href="#"><span class="icon icon-logout-icon"></span>Log out</a>
+            </li>
+          </ul>
+        </nav>
+
+        <p class="copywrite">Povered by <span>First Student</span></p>
+      </aside>
+
+      <section class="content-section col-sm-8">
         <div class="avatar">
           <img src="img/profile-pic-empty.png" alt="user profile image">
         </div>
-        <p class="name-user">Eamonn</p>
-      </div>
-      <nav class="menu-dashboard">
-        <ul>
-          <li>
-            <a href="#" class="active">
-              <span class="icon icon-profile-icon"></span>
-              Profile
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="icon icon-stop-pin"></span>
-              Map
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="icon icon-notification-icon"></span>
-              Notification
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="icon icon-settings-icon"></span>
-              Settings
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="icon icon-help-icon"></span>
-              Help
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="icon icon-logout-icon"></span>
-              Log out
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <p class="copywrite">Povered by <span>First Student</span></p>
-    </aside>
-    <section class="content-section col-sm-8">
-      <div class="avatar">
-        <img src="img/profile-pic-empty.png" alt="user profile image">
-      </div>
-      <div class="header-list-options">User Profile</div>
+
+        <div class="header-list-options">User Profile</div>
+          <ul class="list-options">
+            <li>
+              <a class="clearfix" href="#">
+                <span class="key">Name</span>
+                <span class="icon icon-row-arrow-icon"></span>
+                <span class="value">Eamonn</span>
+              </a>
+            </li>
+            <li>
+              <a class="clearfix" href="#">
+                <span class="key">Mobile / Cell</span>
+                <span class="icon icon-row-arrow-icon"></span>
+                <span class="value">555-555-555</span>
+              </a>
+            </li>
+            <li>
+              <a class="clearfix" href="#">
+                <span class="key">Email</span>
+                <span class="icon icon-row-arrow-icon"></span>
+                <span class="value">eamonn@mail.com</span>
+              </a>
+            </li>
+            <li>
+              <a class="clearfix" href="#">
+                <span class="key">Change Password</span>
+                <span class="icon icon-row-arrow-icon"></span>
+                <span class="value"></span>
+              </a>
+            </li>
+          </ul>
+
+        <div class="header-list-options">Stops</div>
         <ul class="list-options">
           <li>
             <a class="clearfix" href="#">
-              <span class="key">Name</span>
-              <span class="icon icon-row-arrow-icon">icon</span>
-              <span class="value">Eamonn</span>
+              <span class="key">Johnston Lane & 5th Avenue</span>
+              <span class="icon icon-row-arrow-icon"></span>
+
             </a>
           </li>
           <li>
             <a class="clearfix" href="#">
-              <span class="key">Mobile / Cell</span>
+              <span class="key">Follow A Stop</span>
               <span class="icon icon-row-arrow-icon"></span>
-              <span class="value">555-555-555</span>
-            </a>
-          </li>
-          <li>
-            <a class="clearfix" href="#">
-              <span class="key">Email</span>
-              <span class="icon icon-row-arrow-icon"></span>
-              <span class="value">eamonn@mail.com</span>
-            </a>
-          </li>
-          <li>
-            <a class="clearfix" href="#">
-              <span class="key">Change Password</span>
-              <span class="icon icon-row-arrow-icon"></span>
-              <span class="value"></span>
             </a>
           </li>
         </ul>
-      <div class="header-list-options">Stops</div>
-      <ul class="list-options">
-        <li>
-          <a class="clearfix" href="#">
-            <span class="key">Johnston Lane & 5th Avenue</span>
-            <span class="icon icon-row-arrow-icon"></span>
 
-          </a>
-        </li>
-        <li>
-          <a class="clearfix" href="#">
-            <span class="key">Follow A Stop</span>
-            <span class="icon icon-row-arrow-icon"></span>
-          </a>
-        </li>
-      </ul>
-      <div class="logout">
-        <a href="#">Log Out</a>
-      </div>
-
-
-
-    </section>
-  </div>
-</section>
-
-
-
-
+        <div class="logout">
+          <a href="#">Log Out</a>
+        </div>
+      </section>
+    </div>
+  </section>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
