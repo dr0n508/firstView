@@ -303,22 +303,23 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   padding-left: 0;
   padding-right: 0;
   position: relative;
-  //.link-back {
-  //  position: absolute;
-  //  top: 50%;
-  //  margin-top: -33px;
-  //  padding: 22px;
-  //  @media only screen and (max-width: 767px) {
-  //      left: 100px;
-  //  }
-  //  &:hover {
-  //    text-decoration: none;
-  //  }
-  //  .icon {
-  //    color: #727272;
-  //    font-size: 22px;
-  //  }
-  //}
+  .link-back {
+    position: absolute;
+    display: block;
+    left: 30px;
+    top: 50%;
+    margin-top: -10px;
+    color: #727272;
+    .icon {
+      font-size: 20px;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+    @media only screen and (max-width: 767px) {
+      left: 10px;
+    }
+  }
   p {
     font-size: 19px;
     color: #727272;

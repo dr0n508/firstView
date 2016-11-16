@@ -242,6 +242,20 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   padding-left: 0;
   padding-right: 0;
   position: relative; }
+  .header-current-window .link-back {
+    position: absolute;
+    display: block;
+    left: 30px;
+    top: 50%;
+    margin-top: -10px;
+    color: #727272; }
+    .header-current-window .link-back .icon {
+      font-size: 20px; }
+    .header-current-window .link-back:hover {
+      text-decoration: none; }
+    @media only screen and (max-width: 767px) {
+      .header-current-window .link-back {
+        left: 10px; } }
   .header-current-window p {
     font-size: 19px;
     color: #727272;
