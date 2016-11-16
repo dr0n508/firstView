@@ -7,8 +7,11 @@ $(document).ready(function () {
         $(this).closest('.wrap-input').removeClass("focus-input");
     });
 
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+    // $("#menu-toggle").click(function(e) {
+    //     e.preventDefault();
+    //     $("#wrapper").toggleClass("toggled");
+    // });
+    
+    
+    
 });

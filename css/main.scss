@@ -216,11 +216,8 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 
 /*************ASIDE**********************/
 .avatar {
-
   display: inline-block;
   text-align: center;
-
-  //overflow: hidden;
   img {
     border: solid 5px white;
     border-radius: 50%;
@@ -305,6 +302,23 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 .header-current-window {
   padding-left: 0;
   padding-right: 0;
+  position: relative;
+  //.link-back {
+  //  position: absolute;
+  //  top: 50%;
+  //  margin-top: -33px;
+  //  padding: 22px;
+  //  @media only screen and (max-width: 767px) {
+  //      left: 100px;
+  //  }
+  //  &:hover {
+  //    text-decoration: none;
+  //  }
+  //  .icon {
+  //    color: #727272;
+  //    font-size: 22px;
+  //  }
+  //}
   p {
     font-size: 19px;
     color: #727272;
@@ -318,21 +332,26 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 .content-section {
   padding-right: 0;
   padding-left: 0;
+  .wrap-btn {
+    text-align: center;
+  }
   .wrap-avatar {
     background: linear-gradient(-45deg, rgba(221, 228, 243, 1) 0%, rgba(215, 216, 234, 1) 100%);
     padding: 30px 0;
     text-align: center;
   }
   .header-list-options {
+    text-align: left;
     color: #7c7c7c;
     font-size: 16px;
     padding: 10px 30px;
-
+  }
+  .header-list-options.inside {
+    padding: 30px 30px 10px 30px;
   }
   .list-options {
     letter-spacing: 1px;
-    li {
-
+    .link-item {
       a {
         background: white;
         font-size: 15px;
@@ -359,6 +378,80 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
           line-height: 22px;
           color: #999999;
         }
+        .icon-close-icon {
+          font-size: 22px;
+        }
+      }
+    }
+    .input-item {
+      background: white;
+      position: relative;
+      input {
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 25px 80px 25px 30px;
+        border-bottom: solid 1px #888;
+        letter-spacing: 1px;
+        &:hover {
+          cursor: pointer;
+          + label .icon {
+            color: #d2b877;
+          }
+        }
+      }
+      input + label {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 25px 30px 25px 0;
+        .icon {
+          font-size: 22px;
+          color: #999999;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .checkbox-item {
+      position: relative;
+      background: white;
+      &:hover {
+        cursor: pointer;
+        .label-text {
+          color: #d2b877;
+        }
+      }
+      input:not(checked){
+        position: absolute;
+        opacity: 0;
+      }
+      .label-text {
+        width: 100%;
+        padding: 25px 30px;
+      }
+      input:checked + label {
+        &:before {
+          content: "";
+          width: 18px;
+          height: 16px;
+          display: block;
+          background: url("../img/check-icon.png") no-repeat 50% 50%;
+          position: absolute;
+          bottom: 1px;
+          right: 0;
+        }
+      }
+      .checkbox-custom-label {
+        position: absolute;
+        top: 50%;
+        margin-top: -10px;
+        right: 30px;
+        width: 20px;
+        height: 20px;
+        border: solid 1px #999999;
+        border-radius: 3px;
       }
     }
   }
@@ -390,3 +483,5 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
 }
 /******************/
+
+

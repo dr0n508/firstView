@@ -240,7 +240,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 /***********************************************/
 .header-current-window {
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+  position: relative; }
   .header-current-window p {
     font-size: 19px;
     color: #727272;
@@ -252,36 +253,98 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .content-section {
   padding-right: 0;
   padding-left: 0; }
+  .content-section .wrap-btn {
+    text-align: center; }
   .content-section .wrap-avatar {
     background: linear-gradient(-45deg, #dde4f3 0%, #d7d8ea 100%);
     padding: 30px 0;
     text-align: center; }
   .content-section .header-list-options {
+    text-align: left;
     color: #7c7c7c;
     font-size: 16px;
     padding: 10px 30px; }
+  .content-section .header-list-options.inside {
+    padding: 30px 30px 10px 30px; }
   .content-section .list-options {
     letter-spacing: 1px; }
-    .content-section .list-options li a {
+    .content-section .list-options .link-item a {
       background: white;
       font-size: 15px;
       color: #000;
       padding: 25px 30px;
       display: block;
       border-bottom: solid 1px #888; }
-      .content-section .list-options li a:hover .key, .content-section .list-options li a:hover .value, .content-section .list-options li a:hover .icon {
+      .content-section .list-options .link-item a:hover .key, .content-section .list-options .link-item a:hover .value, .content-section .list-options .link-item a:hover .icon {
         text-decoration: none;
         color: #d2b877; }
-      .content-section .list-options li a .key {
+      .content-section .list-options .link-item a .key {
         float: left; }
-      .content-section .list-options li a .value {
+      .content-section .list-options .link-item a .value {
         float: right;
         color: #999999;
         margin-right: 20px; }
-      .content-section .list-options li a .icon {
+      .content-section .list-options .link-item a .icon {
         float: right;
         line-height: 22px;
         color: #999999; }
+      .content-section .list-options .link-item a .icon-close-icon {
+        font-size: 22px; }
+    .content-section .list-options .input-item {
+      background: white;
+      position: relative; }
+      .content-section .list-options .input-item input {
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 25px 80px 25px 30px;
+        border-bottom: solid 1px #888;
+        letter-spacing: 1px; }
+        .content-section .list-options .input-item input:hover {
+          cursor: pointer; }
+          .content-section .list-options .input-item input:hover + label .icon {
+            color: #d2b877; }
+      .content-section .list-options .input-item input + label {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 25px 30px 25px 0; }
+        .content-section .list-options .input-item input + label .icon {
+          font-size: 22px;
+          color: #999999; }
+        .content-section .list-options .input-item input + label:hover {
+          cursor: pointer; }
+    .content-section .list-options .checkbox-item {
+      position: relative;
+      background: white; }
+      .content-section .list-options .checkbox-item:hover {
+        cursor: pointer; }
+        .content-section .list-options .checkbox-item:hover .label-text {
+          color: #d2b877; }
+      .content-section .list-options .checkbox-item input:not(checked) {
+        position: absolute;
+        opacity: 0; }
+      .content-section .list-options .checkbox-item .label-text {
+        width: 100%;
+        padding: 25px 30px; }
+      .content-section .list-options .checkbox-item input:checked + label:before {
+        content: "";
+        width: 18px;
+        height: 16px;
+        display: block;
+        background: url("../img/check-icon.png") no-repeat 50% 50%;
+        position: absolute;
+        bottom: 1px;
+        right: 0; }
+      .content-section .list-options .checkbox-item .checkbox-custom-label {
+        position: absolute;
+        top: 50%;
+        margin-top: -10px;
+        right: 30px;
+        width: 20px;
+        height: 20px;
+        border: solid 1px #999999;
+        border-radius: 3px; }
   @media only screen and (max-width: 460px) {
     .content-section .list-options {
       letter-spacing: normal; }

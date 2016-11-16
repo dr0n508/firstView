@@ -29,7 +29,8 @@
         </div>
         <div class="header-current-window col-sm-8">
           <a href="index.html" class="visible-xs logo-xs"><img src="img/FirstView-logo@2x.png" alt="first view logo"></a>
-          <p>Profile</p>
+          <!--<a href="profile.html" class="link-back"><span class="icon icon-back-icon"></span></a>-->
+          <p>Name</p>
         </div>
 
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -114,63 +115,36 @@
       </aside>
 
       <section class="content-section col-sm-8">
-        <div class="wrap-avatar">
-          <div class="avatar">
-            <img src="img/avatar.jpg" alt="user profile image">
-          </div>
-        </div>
-        <div class="header-list-options">User Profile</div>
+
+        <div class="header-list-options inside">Edit your name</div>
+        <form action="#">
           <ul class="list-options">
             <li class="link-item">
-              <a class="clearfix" href="profile-username.html">
+              <a class="clearfix" href="#">
                 <span class="key">Name</span>
-                <span class="icon icon-row-arrow-icon"></span>
-                <span class="value">Eamonn</span>
+                <span class="icon icon-close-icon"></span>
+
               </a>
             </li>
-            <li class="link-item">
-              <a class="clearfix" href="#">
-                <span class="key">Mobile / Cell</span>
-                <span class="icon icon-row-arrow-icon"></span>
-                <span class="value">555-555-555</span>
-              </a>
+            <li class="input-item">
+              <input id="edit-last-name" type="text" value="nasd">
+              <label for="edit-last-name"><span class="icon icon-close-icon"></span></label>
+
             </li>
-            <li class="link-item">
-              <a class="clearfix" href="#">
-                <span class="key">Email</span>
-                <span class="icon icon-row-arrow-icon"></span>
-                <span class="value">eamonn@mail.com</span>
-              </a>
-            </li>
-            <li class="link-item">
-              <a class="clearfix" href="#">
-                <span class="key">Change Password</span>
-                <span class="icon icon-row-arrow-icon"></span>
-                <span class="value"></span>
-              </a>
+            <li class="checkbox-item">
+              <input id="receive-email" checked name="receive-email" type="checkbox">
+              <label class="checkbox-custom-label" for="receive-email"></label>
+              <label class="label-text" for="receive-email">Receive Email</label>
             </li>
           </ul>
+          <div class="wrap-btn">
+            <button class="btn" type="submit">Done</button>
+          </div>
 
-        <div class="header-list-options">Stops</div>
-        <ul class="list-options">
-          <li class="link-item">
-            <a class="clearfix" href="#">
-              <span class="key">Johnston Lane & 5th Avenue</span>
-              <span class="icon icon-row-arrow-icon"></span>
 
-            </a>
-          </li>
-          <li class="link-item">
-            <a class="clearfix" href="#">
-              <span class="key">Follow A Stop</span>
-              <span class="icon icon-row-arrow-icon"></span>
-            </a>
-          </li>
-        </ul>
+        </form>
 
-        <div class="logout">
-          <a href="#">Log Out</a>
-        </div>
+
       </section>
 
     </div>
