@@ -30,6 +30,10 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   font-weight: 600;
   padding: 10px 100px;
   margin: 20px 0;
+  &:hover {
+    color: white;
+    background: #9bcf61;
+  }
 }
 
 .header-login-sign-up {
@@ -46,28 +50,39 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
     li {
       display: inline-block;
       a {
-        width: 25px;
-        height: 25px;
+        text-indent: -9999px;
+        width: 26px;
+        height: 26px;
         display: block;
+        background-size: cover;
+        &:hover {
+          opacity: .5;
+        }
       }
     }
     .facebook-social a {
-      background: url("../img/social-icons/facebook.png") no-repeat 50% 50%;
+      background: url("../img/social-icons/facebook.png") no-repeat;
+      background-size: 100% 100%;
     }
     .twitter-social a {
-      background: url("../img/social-icons/twitter.png") no-repeat 50% 50%;
+      background: url("../img/social-icons/twitter.png") no-repeat;
+      background-size: 100% 100%;
     }
     .vimeo-social a {
-      background: url("../img/social-icons/vimeo.png") no-repeat 50% 50%;
+      background: url("../img/social-icons/vimeo.png") no-repeat;
+      background-size: 100% 100%;
     }
     .youtube-social a {
-      background: url("../img/social-icons/youtube.png") no-repeat 50% 50%;
+      background: url("../img/social-icons/youtube.png") no-repeat;
+      background-size: 100% 100%;
     }
     .instagram-social a {
-      background: url("../img/social-icons/instagram.png") no-repeat 50% 50%;
+      background: url("../img/social-icons/instagram.png") no-repeat;
+      background-size: 100% 100%;
     }
     .linkedin-social a {
-      background: url("../img/social-icons/linkedin.png") no-repeat 50% 50%;
+      background: url("../img/social-icons/linkedin.png") no-repeat;
+      background-size: 100% 100%;
     }
   }
 
@@ -141,7 +156,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
     width: 55px;
     height: 50px;
     border-left: solid 1px #d8d8d8;
-    background: url("../img/profile icon.svg") 50% 50% no-repeat, white;
+    background: url("../img/icon/triangle icon.svg") 50% 50% no-repeat, white;
     display: block;
     position: absolute;
     right: 0;

@@ -21,6 +21,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   font-weight: 600;
   padding: 10px 100px;
   margin: 20px 0; }
+  .btn:hover {
+    color: white;
+    background: #9bcf61; }
 
 .header-login-sign-up {
   -webkit-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
@@ -37,21 +40,31 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     .header-login-sign-up .social-links li {
       display: inline-block; }
       .header-login-sign-up .social-links li a {
-        width: 25px;
-        height: 25px;
-        display: block; }
+        text-indent: -9999px;
+        width: 26px;
+        height: 26px;
+        display: block;
+        background-size: cover; }
+        .header-login-sign-up .social-links li a:hover {
+          opacity: .5; }
     .header-login-sign-up .social-links .facebook-social a {
-      background: url("../img/social-icons/facebook.png") no-repeat 50% 50%; }
+      background: url("../img/social-icons/facebook.png") no-repeat;
+      background-size: 100% 100%; }
     .header-login-sign-up .social-links .twitter-social a {
-      background: url("../img/social-icons/twitter.png") no-repeat 50% 50%; }
+      background: url("../img/social-icons/twitter.png") no-repeat;
+      background-size: 100% 100%; }
     .header-login-sign-up .social-links .vimeo-social a {
-      background: url("../img/social-icons/vimeo.png") no-repeat 50% 50%; }
+      background: url("../img/social-icons/vimeo.png") no-repeat;
+      background-size: 100% 100%; }
     .header-login-sign-up .social-links .youtube-social a {
-      background: url("../img/social-icons/youtube.png") no-repeat 50% 50%; }
+      background: url("../img/social-icons/youtube.png") no-repeat;
+      background-size: 100% 100%; }
     .header-login-sign-up .social-links .instagram-social a {
-      background: url("../img/social-icons/instagram.png") no-repeat 50% 50%; }
+      background: url("../img/social-icons/instagram.png") no-repeat;
+      background-size: 100% 100%; }
     .header-login-sign-up .social-links .linkedin-social a {
-      background: url("../img/social-icons/linkedin.png") no-repeat 50% 50%; }
+      background: url("../img/social-icons/linkedin.png") no-repeat;
+      background-size: 100% 100%; }
   @media only screen and (max-width: 772px) {
     .header-login-sign-up .social-links {
       text-align: center; } }
@@ -100,7 +113,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     width: 55px;
     height: 50px;
     border-left: solid 1px #d8d8d8;
-    background: url("../img/profile icon.svg") 50% 50% no-repeat, white;
+    background: url("../img/icon/triangle icon.svg") 50% 50% no-repeat, white;
     display: block;
     position: absolute;
     right: 0;
