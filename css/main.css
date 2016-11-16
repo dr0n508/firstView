@@ -1,0 +1,299 @@
+@import url(svg-font.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, input, textarea, address {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none; }
+
+.btn {
+  background-color: #71b526;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 100px;
+  margin: 20px 0; }
+
+.header-login-sign-up {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
+  -moz-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
+  box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
+  background: #f8f8f8;
+  position: relative;
+  z-index: 1;
+  padding: 10px 0 15px; }
+  .header-login-sign-up .logo {
+    text-align: center; }
+  .header-login-sign-up .social-links {
+    margin-top: 15px; }
+    .header-login-sign-up .social-links li {
+      display: inline-block; }
+      .header-login-sign-up .social-links li a {
+        width: 25px;
+        height: 25px;
+        display: block; }
+    .header-login-sign-up .social-links .facebook-social a {
+      background: url("../img/social-icons/facebook.png") no-repeat 50% 50%; }
+    .header-login-sign-up .social-links .twitter-social a {
+      background: url("../img/social-icons/twitter.png") no-repeat 50% 50%; }
+    .header-login-sign-up .social-links .vimeo-social a {
+      background: url("../img/social-icons/vimeo.png") no-repeat 50% 50%; }
+    .header-login-sign-up .social-links .youtube-social a {
+      background: url("../img/social-icons/youtube.png") no-repeat 50% 50%; }
+    .header-login-sign-up .social-links .instagram-social a {
+      background: url("../img/social-icons/instagram.png") no-repeat 50% 50%; }
+    .header-login-sign-up .social-links .linkedin-social a {
+      background: url("../img/social-icons/linkedin.png") no-repeat 50% 50%; }
+  @media only screen and (max-width: 772px) {
+    .header-login-sign-up .social-links {
+      text-align: center; } }
+
+.header-profile {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
+  -moz-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
+  box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
+  z-index: 2;
+  position: relative; }
+  .header-profile .logo {
+    text-align: center;
+    padding: 10px; }
+
+.wrap-input {
+  background: white;
+  display: flex;
+  align-items: center;
+  border-top: solid 1px #d8d8d8;
+  border-right: solid 1px transparent;
+  border-left: solid 1px transparent;
+  border-bottom: solid 1px transparent;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-bottom: 10px; }
+  .wrap-input .icon {
+    color: #727272;
+    font-size: 20px;
+    padding: 15px 0;
+    text-align: center;
+    width: 60px;
+    background-color: #d8d8d8; }
+  .wrap-input input, .wrap-input select {
+    border: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    width: 100%; }
+
+.wrap-input.select {
+  border: solid 1px #d8d8d8;
+  position: relative; }
+  .wrap-input.select:hover {
+    cursor: pointer; }
+  .wrap-input.select:after {
+    content: "";
+    width: 55px;
+    height: 50px;
+    border-left: solid 1px #d8d8d8;
+    background: url("../img/profile icon.svg") 50% 50% no-repeat, white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1; }
+  .wrap-input.select .icon {
+    background: none;
+    border-left: solid 1px #d8d8d8; }
+  .wrap-input.select select {
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    z-index: 2; }
+
+.focus-input {
+  border: solid 1px #0e1dc0; }
+  .focus-input .icon {
+    background-color: #0e1dc0;
+    color: white; }
+
+.login {
+  background: #f3f5f8;
+  padding: 60px 0;
+  text-align: center; }
+  .login h1 {
+    text-transform: uppercase;
+    color: #727272;
+    margin-bottom: 60px; }
+  .login .desc-section {
+    color: #727272;
+    margin-bottom: 20px; }
+  .login .link {
+    text-decoration: underline;
+    color: #0e1dc0;
+    font-weight: 600; }
+
+/*************dashboard*************/
+.dashboard {
+  background: #f3f5f8;
+  padding-bottom: 50px; }
+  .dashboard aside {
+    background: url("../img/FS - Navigation BG.png") no-repeat 50% 50%;
+    background-size: cover;
+    padding: 100px 0 80px; }
+    .dashboard aside .user .avatar {
+      text-align: center; }
+      .dashboard aside .user .avatar img {
+        width: 100px;
+        height: auto; }
+    .dashboard aside .user .name-user {
+      font-size: 20px;
+      text-align: center;
+      padding: 15px 0;
+      color: white; }
+    .dashboard aside .menu-dashboard {
+      padding: 40px 10px; }
+      .dashboard aside .menu-dashboard ul li {
+        margin-bottom: 5px; }
+        .dashboard aside .menu-dashboard ul li:last-child a {
+          margin-top: 40px;
+          color: #b1b1b1; }
+        .dashboard aside .menu-dashboard ul li a {
+          color: white;
+          font-size: 22px;
+          padding: 10px;
+          display: block;
+          text-decoration: none; }
+          .dashboard aside .menu-dashboard ul li a .icon {
+            width: 60px;
+            text-align: center;
+            display: inline-block; }
+        .dashboard aside .menu-dashboard ul li .active {
+          border: solid 2px #979797;
+          border-radius: 30px;
+          background: rgba(255, 255, 255, 0.1); }
+    .dashboard aside .copywrite {
+      text-align: center;
+      font-style: italic;
+      font-size: 13px;
+      color: #b1b1b1; }
+      .dashboard aside .copywrite span {
+        font-weight: 600; }
+  .dashboard .content-section {
+    padding-right: 0;
+    padding-left: 0; }
+    .dashboard .content-section .avatar {
+      background: #d5daea;
+      padding: 30px 0; }
+      .dashboard .content-section .avatar img {
+        width: 100px;
+        height: auto;
+        margin: 0 auto;
+        display: block; }
+    .dashboard .content-section .header-list-options {
+      color: #7c7c7c;
+      font-size: 16px;
+      padding: 10px 30px; }
+    .dashboard .content-section .list-options {
+      letter-spacing: 1px; }
+      .dashboard .content-section .list-options li {
+        border-bottom: solid 1px #d5daea; }
+        .dashboard .content-section .list-options li a {
+          background: white;
+          font-size: 16px;
+          color: #000;
+          padding: 25px 30px;
+          display: block; }
+          .dashboard .content-section .list-options li a .key {
+            float: left; }
+          .dashboard .content-section .list-options li a .value {
+            float: right;
+            color: #999999;
+            margin-right: 20px; }
+          .dashboard .content-section .list-options li a .icon {
+            float: right;
+            line-height: 22px;
+            color: #999999; }
+    @media only screen and (max-width: 460px) {
+      .dashboard .content-section .list-options {
+        letter-spacing: normal; }
+        .dashboard .content-section .list-options li a {
+          padding: 20px 15px; } }
+    .dashboard .content-section .logout a {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 16px;
+      background: white;
+      color: #000;
+      padding: 30px;
+      display: block;
+      text-transform: uppercase;
+      border-bottom: solid 1px #d5daea;
+      text-decoration: none;
+      letter-spacing: 1px; }
+
+/******************/
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
+  -moz-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
+  box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
+  position: relative;
+  z-index: 2;
+  border-radius: 0; }
+
+.navbar-toggle {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  border: none;
+  background: none; }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: none; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-size: 18px; }
+
+.logo-profile {
+  text-align: center; }
+  .logo-profile a {
+    display: inline-block;
+    padding: 10px 0 15px; }
+
+.header-current-window {
+  padding-left: 0;
+  padding-right: 0; }
+  .header-current-window p {
+    font-size: 20px;
+    color: #727272;
+    line-height: 45px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-left: solid 2px #f3f5f8; }
+
+.navbar-nav {
+  background: url("../img/FS - Navigation BG.png") no-repeat 50% 50%;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px; }
+  .navbar-nav .user .avatar {
+    text-align: center; }
+    .navbar-nav .user .avatar img {
+      width: 50px;
+      height: auto; }
+  .navbar-nav .user .name-user {
+    text-align: center;
+    padding: 15px 0;
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */

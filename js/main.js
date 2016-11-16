@@ -6,4 +6,9 @@ $(document).ready(function () {
     $(".wrap-input input").focusout(function() {
         $(this).closest('.wrap-input').removeClass("focus-input");
     });
+
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
 });
