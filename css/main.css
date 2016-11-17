@@ -1,5 +1,6 @@
 @import url(svg-font.css);
 @import url(custom-bootstrap-style.css);
+@import url(faq.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
 * {
   box-sizing: border-box;
@@ -381,5 +382,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       color: #d2b877; }
 
 /******************/
+.wrap-faq-list {
+  background: white; }
 
 /*# sourceMappingURL=main.css.map */

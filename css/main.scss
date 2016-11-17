@@ -1,5 +1,6 @@
 @import "svg-font.css";
 @import "custom-bootstrap-style.css";
+@import "faq.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 
 * {
@@ -484,5 +485,10 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
 }
 /******************/
+
+
+.wrap-faq-list {
+  background: white;
+}
 
 
