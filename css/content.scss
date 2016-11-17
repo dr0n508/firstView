@@ -48,6 +48,9 @@
     text-decoration: underline;
     color: #0e1dc0;
     font-weight: 600;
+    &:hover {
+      opacity: .8;
+    }
   }
 }
 
@@ -91,6 +94,7 @@
     display: inline-block;
     text-align: center;
 
+
   }
   .btn-settings {
     font-size: 30px;
@@ -102,6 +106,9 @@
     text-align: center;
     padding: 10px 20px;
     border-radius: 20px;
+    &:hover {
+      background: #f3f5f8;
+    }
   }
   .btn-remove-stop {
     border: solid 2px #d0021b;
