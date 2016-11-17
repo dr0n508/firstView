@@ -55,3 +55,116 @@
 .help-list {
   margin-top: 30px;
 }
+
+
+/******stop-details******/
+
+.wrap-main {
+  display: flex;
+}
+
+.wrap-left-time {
+  padding: 10px 30px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  .left-time {
+    font-size: 45px;
+    line-height: 53px;
+  }
+  .label-left-time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -25px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #2cb5ad;
+    border-radius: 8px;
+    padding: 0 10px;
+  }
+}
+
+.wrap-stop-details {
+  padding: 10px;
+  .wrap-expected {
+    display: flex;
+  }
+  .expected-time {
+    position: relative;
+    padding: 0 10px 0 15px;
+    border-left: solid 1px #d8d8d8;
+    //float: left;
+    margin-bottom: 10px;
+    .label-expected {
+      text-transform: uppercase;
+      display: block;
+      color: #2cb5ad;
+      font-size: 13px;
+    }
+    .time-expected {
+      display: block;
+      font-size: 18px;
+      color: #4a4a4a;
+      padding: 5px 0;
+      font-weight: 600;
+    }
+    .am-pm {
+      text-transform: uppercase;
+      display: block;
+      color: #b1b1b1;
+      font-size: 13px;
+    }
+  }
+  .icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    left: -7px;
+    display: block;
+    background: #f3f5f8;
+    padding: 7px 0;
+    color: #2cb5ad;
+  }
+  .name-stop {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 15px;
+    border-left: solid 1px #d8d8d8;
+    //float: left;
+    margin-bottom: 10px;
+    p {
+      align-items: center;
+      //line-height: 71px;
+      font-size: 18px;
+      color: #4a4a4a;
+      font-weight: 600;
+    }
+    .address-stop {
+      font-size: 13px;
+      color: #b1b1b1;
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+    }
+
+  }
+  .wrap-destination {
+    border-top: solid 2px #d8d8d8;
+    //float: left;
+    .destination {
+      position: relative;
+      display: block;
+      font-size: 13px;
+      color: #4a4a4a;
+      padding: 5px 5px 5px 15px;
+      .icon {
+        color: #4a4a4a;
+      }
+    }
+  }
+
+}
