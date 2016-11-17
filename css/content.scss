@@ -65,12 +65,25 @@
   background: white;
   border-radius: 10px;
   ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    li {
+      padding: 0 5px;
+      float: left;
+      width: 30%;
+
+      &:first-child {
+        width: 10%;
+      }
+    }
+    @media only screen and (max-width: 460px) {
+      li {
+        width: 100% !important;
+        margin-bottom: 10px;
+      }
+    }
   }
 
   a {
+    width: 100%;
     color: #4a4a4a;
     text-decoration: none;
     text-transform: uppercase;
