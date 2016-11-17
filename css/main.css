@@ -327,7 +327,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
         padding: 25px 30px 25px 0; }
         .content-section .list-options .input-item input + label .icon {
           font-size: 22px;
-          color: #999999; }
+          color: #d8d8d8; }
         .content-section .list-options .input-item input + label:hover {
           cursor: pointer; }
     .content-section .list-options .checkbox-item {
