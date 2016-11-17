@@ -59,10 +59,148 @@
 
 /******stop-details******/
 
+.settings-single-stop {
+  margin: 20px;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 10px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  a {
+    color: #4a4a4a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    display: inline-block;
+    text-align: center;
+
+  }
+  .btn-settings {
+    font-size: 30px;
+  }
+  .btn-time-reminder, .btn-distanse-reminder {
+    border: solid 2px #4a4a4a;
+  }
+  .btn-time-reminder, .btn-distanse-reminder, .btn-remove-stop {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  .btn-remove-stop {
+    border: solid 2px #d0021b;
+  }
+}
+
+
+.logo-school {
+  border-top: solid 15px #002e5d;
+  .wrap-img {
+    border-top: solid 15px #d1ccbd;
+    border-bottom: solid 5px #2cb5ad;
+    text-align: center;
+    position: relative;
+    background: white;
+    padding: 50px 0;
+    &:before {
+      content: "Powered by First Student";
+      position: absolute;
+      width: 100px;
+      top: 20px;
+      left: 30px;
+      color: #727272;
+      font-size: 12px;
+    }
+  }
+}
+
+.list-map-stops.first-view-map {
+  .wrap-main {
+    background: white;
+    .wrap-stop-details .icon {
+      background: white;
+    }
+  }
+}
+
+.wrap-main.blue-color {
+  border-left: solid 8px #97c3ea;
+  .wrap-left-time .label-left-time {
+    background: #97c3ea;
+  }
+  .wrap-stop-details .icon {
+    color: #97c3ea;
+  }
+  .wrap-stop-details .expected-time .label-expected {
+    color: #97c3ea;
+  }
+}
+
+.wrap-main.pink-color {
+  border-left: solid 8px #ec6094;
+  .wrap-left-time .label-left-time {
+    background: #ec6094;
+  }
+  .wrap-stop-details .icon {
+    color: #ec6094;
+  }
+  .wrap-stop-details .expected-time .label-expected {
+    color: #ec6094;
+  }
+}
+
+.wrap-main.yellow-color {
+  border-left: solid 8px #fbbe51;
+  .wrap-left-time .label-left-time {
+    background: #fbbe51;
+  }
+  .wrap-stop-details .icon {
+    color: #fbbe51;
+  }
+  .wrap-stop-details .expected-time .label-expected {
+    color: #fbbe51;
+  }
+}
+
+.wrap-main.green-color {
+  border-left: solid 8px #2cb5ad;
+  .wrap-left-time .label-left-time {
+    background: #2cb5ad;
+  }
+  .wrap-stop-details .icon {
+    color: #2cb5ad;
+  }
+  .wrap-stop-details .expected-time .label-expected {
+    color: #2cb5ad;
+  }
+}
+
+.wrap-main.purple-color {
+  border-left: solid 8px #9f6fac;
+  .wrap-left-time .label-left-time {
+    background: #9f6fac;
+  }
+  .wrap-stop-details .icon {
+    color: #9f6fac;
+  }
+  .wrap-stop-details .expected-time .label-expected {
+    color: #9f6fac;
+  }
+}
+
+
+
 .wrap-main {
   display: flex;
-  border-left: solid 8px #9f6fac;
   border-bottom: solid 1px #dadada;
+}
+
+.single-stop-detail.wrap-main {
+  padding: 0 20px;
+  border-bottom: none;
 }
 
 .wrap-left-time {
@@ -74,6 +212,7 @@
   .left-time {
     font-size: 45px;
     line-height: 53px;
+    color: #4a4a4a;
 
   }
   .label-left-time {
@@ -100,7 +239,6 @@
     position: relative;
     padding: 0 10px 0 15px;
     border-left: solid 1px #d8d8d8;
-    //float: left;
     margin-bottom: 10px;
     .label-expected {
       text-transform: uppercase;
@@ -140,11 +278,9 @@
     align-items: flex-start;
     padding: 0 10px 0 15px;
     border-left: solid 1px #d8d8d8;
-    //float: left;
     margin-bottom: 10px;
     p {
       align-items: center;
-      //line-height: 71px;
       font-size: 18px;
       color: #4a4a4a;
       font-weight: 600;
@@ -152,15 +288,11 @@
     .address-stop {
       font-size: 13px;
       color: #b1b1b1;
-      //position: absolute;
-      //bottom: 0;
-      //left: 15px;
     }
 
   }
   .wrap-destination {
     border-top: solid 2px #d8d8d8;
-    //float: left;
     .destination {
       position: relative;
       display: block;
