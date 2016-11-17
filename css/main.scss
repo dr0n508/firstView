@@ -510,6 +510,26 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
 }
 
+/************************/
+.logo-fs {
+  width: 260px;
+  height: auto;
+}
+
+/**********terms-condition****************/
+.text-terms-condition {
+  h3 {
+    font-size: 18px;
+    color: #203970;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+}
+
 
 
 
