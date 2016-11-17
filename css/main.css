@@ -385,4 +385,16 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .wrap-faq-list {
   background: white; }
 
+.block-content {
+  padding: 25px 30px;
+  background: white; }
+
+/******************contact-Support***********/
+.list-contact .label-contact {
+  font-weight: 600; }
+.list-contact .link-contact {
+  text-decoration: underline;
+  color: #0e1dc0;
+  font-weight: 600; }
+
 /*# sourceMappingURL=main.css.map */
