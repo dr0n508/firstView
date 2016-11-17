@@ -151,7 +151,7 @@
         </div>
         <div class="settings-single-stop">
           <ul class="clearfix">
-            <li><a href="#" class="btn-settings"><span class="icon icon-settings-icon"></span></a></li>
+            <li><a href="#" class="btn-settings" data-toggle="modal" data-target=".bs-example-modal-sm"><span class="icon icon-settings-icon"></span></a></li>
             <li><a href="#" class="btn-time-reminder" >Time reminder</a></li>
             <li><a href="#" class="btn-distanse-reminder">Distance reminder</a></li>
             <li><a href="#" class="btn-remove-stop">Remove Stop</a></li>
@@ -160,6 +160,24 @@
       </section>
     </div>
   </section>
+
+  <!--modal-->
+  <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <span class="icon icon-close-icon" data-dismiss="modal" aria-label="Close"></span>
+        <div class="header-modal">
+          <p>Rename stop</p>
+        </div>
+        <form action="#">
+          <input type="text" id="new-name-stop">
+          <label for="new-name-stop">Please add a label name for this stop</label>
+          <button type="button" data-dismiss="modal" aria-label="Close">Cancel</button>
+          <button type="submit">Done</button>
+        </form>
+      </div>
+    </div>
+  </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
