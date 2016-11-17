@@ -1,6 +1,7 @@
 @import "svg-font.css";
 @import "custom-bootstrap-style.css";
 @import "faq.css";
+@import "content.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 
 * {
@@ -23,6 +24,9 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   -moz-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
   box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
 }
+
+
+$dashboard-background: #f3f5f8;
 
 .btn {
   background-color: #71b526;
@@ -203,7 +207,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 /*************DASHBOARD******************/
 /****************************************/
 .dashboard {
-  background: #ceccce;
+  background: $dashboard-background;
   padding-bottom: 50px;
 }
 
@@ -360,7 +364,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
         color: #000;
         padding: 25px 30px;
         display: block;
-        border-bottom: solid 1px #888;
+        border-bottom: solid 1px #dadada;
         &:hover {
           .key, .value, .icon{
             text-decoration: none;
@@ -393,7 +397,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
         outline: none;
         width: 100%;
         padding: 25px 80px 25px 30px;
-        border-bottom: solid 1px #888;
+        border-bottom: solid 1px #dadada;
         letter-spacing: 1px;
         &:hover {
           cursor: pointer;
@@ -419,6 +423,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
     .checkbox-item {
       position: relative;
       background: white;
+      border-bottom: solid 1px #dadada;
       &:hover {
         cursor: pointer;
         .label-text {
@@ -474,7 +479,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
     padding: 30px;
     display: block;
     text-transform: uppercase;
-    border-bottom: solid 1px #888;
+    border-bottom: solid 1px #dadada;
     text-decoration: none;
     letter-spacing: 1px;
     &:hover {
@@ -487,48 +492,16 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 /******************/
 
 
-.wrap-faq-list {
-  background: white;
-}
-
-.block-content {
-  padding: 25px 30px;
-  background: white;
-}
 
 
-/******************contact-Support***********/
 
-.list-contact {
-  .label-contact {
-    font-weight: 600;
-  }
-  .link-contact {
-    text-decoration: underline;
-    color: #0e1dc0;
-    font-weight: 600;
-  }
-}
 
-/************************/
-.logo-fs {
-  width: 260px;
-  height: auto;
-}
 
-/**********terms-condition****************/
-.text-terms-condition {
-  h3 {
-    font-size: 18px;
-    color: #203970;
-    font-weight: 600;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  }
-  p {
-    margin-bottom: 20px;
-  }
-}
+
+
+
+
+
 
 
 

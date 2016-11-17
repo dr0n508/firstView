@@ -1,5 +1,6 @@
 .wrap-faq-list {
   margin-top: 50px;
+  background: white;
 }
 
 .panel-group {
@@ -15,11 +16,10 @@
   border: none;
 }
 
-
 .panel-default>.panel-heading {
   background: none;
   padding: 0;
-  border-bottom: solid 1px #aaaaaa;
+  border-bottom: solid 1px #dadada;
   box-shadow: none;
   .panel-title {
     font-size: 14px;
@@ -38,14 +38,4 @@
   }
 }
 
-.banner-logo {
-  text-align: center;
-  background: white;
-  border-bottom: solid 1px #aaaaaa;
-  //margin-bottom: 50px;
-  padding: 30px 0;
-  .big-logo {
-    width: 160px;
-    height: auto;
-  }
-}
+

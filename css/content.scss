@@ -1,0 +1,57 @@
+.block-content {
+  padding: 25px 30px;
+  background: white;
+}
+
+.support-text {
+  margin-top: 50px;
+}
+
+.banner-logo {
+  text-align: center;
+  background: white;
+  border-bottom: solid 1px #d8d8d8;
+  padding: 30px 0;
+  .big-logo {
+    width: 160px;
+    height: auto;
+  }
+}
+
+/**********terms-condition****************/
+.text-terms-condition {
+  h3 {
+    font-size: 18px;
+    color: #203970;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+/************************/
+.logo-fs {
+  width: 260px;
+  height: auto;
+}
+
+/******************contact-Support***********/
+
+.list-contact {
+  .label-contact {
+    font-weight: 600;
+  }
+  .link-contact {
+    text-decoration: underline;
+    color: #0e1dc0;
+    font-weight: 600;
+  }
+}
+
+/**********help**********/
+.help-list {
+  margin-top: 30px;
+}
