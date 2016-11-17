@@ -66,13 +66,15 @@
 }
 
 .wrap-left-time {
-  padding: 10px 30px;
+  padding: 10px;
   position: relative;
   text-align: center;
   display: inline-block;
+  width: 80px;
   .left-time {
     font-size: 45px;
     line-height: 53px;
+
   }
   .label-left-time {
     position: absolute;
@@ -133,7 +135,9 @@
   .name-stop {
     position: relative;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 0 10px 0 15px;
     border-left: solid 1px #d8d8d8;
     //float: left;
@@ -148,9 +152,9 @@
     .address-stop {
       font-size: 13px;
       color: #b1b1b1;
-      position: absolute;
-      bottom: 0;
-      left: 15px;
+      //position: absolute;
+      //bottom: 0;
+      //left: 15px;
     }
 
   }
