@@ -389,4 +389,24 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   width: 100%;
   height: auto; }
 
+.owl-prev.disabled, .owl-next.disabled {
+  display: none !important; }
+
+.owl-buttons .owl-prev, .owl-buttons .owl-next {
+  width: 59px;
+  height: 59px;
+  background: url("../img/walk-arrow-right.png") 50% 50% no-repeat !important;
+  background-size: 100%; }
+.owl-buttons .owl-prev {
+  position: absolute;
+  background: url("../img/walk-arrow-left.png") 50% 50% no-repeat !important;
+  top: 50%;
+  margin-top: -30px;
+  left: -20px; }
+.owl-buttons .owl-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  right: -20px; }
+
 /*# sourceMappingURL=main.css.map */
