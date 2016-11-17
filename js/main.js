@@ -40,4 +40,10 @@ $(document).ready(function () {
       [51.503, -0.06],
       [51.51, -0.047]
     ]).addTo(mymap);
+
+
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
 });

@@ -307,6 +307,7 @@
   }
   .wrap-destination {
     border-top: solid 2px #d8d8d8;
+    position: relative;
     .destination {
       position: relative;
       display: block;
@@ -318,5 +319,7 @@
       }
     }
   }
-
 }
+
+
+
