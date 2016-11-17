@@ -232,7 +232,7 @@ $dashboard-background: #f3f5f8;
 }
 
 .aside {
-  background: url("../img/FS - Navigation BG.png") no-repeat 50% 50%;
+  background: url("../img/FS---Navigation-BG.jpg") no-repeat 50% 50%;
   background-size: cover;
   padding: 100px 0 80px;
   .user {
@@ -490,8 +490,12 @@ $dashboard-background: #f3f5f8;
 
   }
 }
-/******************/
-
+/******owl-carousel****/
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 
 

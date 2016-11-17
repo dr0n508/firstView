@@ -185,7 +185,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     height: auto; }
 
 .aside {
-  background: url("../img/FS - Navigation BG.png") no-repeat 50% 50%;
+  background: url("../img/FS---Navigation-BG.jpg") no-repeat 50% 50%;
   background-size: cover;
   padding: 100px 0 80px; }
   .aside .user {
@@ -383,6 +383,10 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
       text-decoration: none;
       color: #d2b877; }
 
-/******************/
+/******owl-carousel****/
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto; }
 
 /*# sourceMappingURL=main.css.map */
