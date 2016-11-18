@@ -261,4 +261,41 @@
   .wrap-main .wrap-stop-details .address-stop {
     font-size: 11px; } }
 
+/**************notifications************/
+.item-notification.green-color .type-notification, .item-notification.green-color .icon {
+  color: #2cb5ad; }
+
+.item-notification.purple-color .type-notification, .item-notification.purple-color .icon {
+  color: #fbbe51; }
+
+.item-notification.yellow-color .type-notification, .item-notification.yellow-color .icon {
+  color: #9f6fac; }
+
+.list-notifications .item-notification {
+  border-bottom: solid 1px #dedede;
+  display: flex; }
+  .list-notifications .item-notification .wrap-notification-icon {
+    padding-right: 30px;
+    font-size: 26px; }
+  .list-notifications .item-notification .notification-info .type-notification {
+    text-transform: uppercase;
+    font-size: 13px; }
+  .list-notifications .item-notification .notification-info .messages-notification {
+    font-size: 19px;
+    color: #727272;
+    margin-bottom: 5px; }
+  .list-notifications .item-notification .notification-info .status-notifications .text-status-notifications {
+    font-size: 15px;
+    color: #727272;
+    margin-left: 5px; }
+  @media only screen and (max-width: 460px) {
+    .list-notifications .item-notification {
+      padding: 20px; }
+      .list-notifications .item-notification .wrap-notification-icon {
+        padding-right: 10px; }
+      .list-notifications .item-notification .notification-info .messages-notification {
+        font-size: 17px; }
+      .list-notifications .item-notification .notification-info .status-notifications .text-status-notifications {
+        font-size: 13px; } }
+
 /*# sourceMappingURL=content.css.map */

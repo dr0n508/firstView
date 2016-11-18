@@ -361,6 +361,69 @@
 }
 
 
+/**************notifications************/
+
+
+.item-notification.green-color {
+  .type-notification, .icon  {
+    color: #2cb5ad;
+  }
+}
+
+.item-notification.purple-color {
+  .type-notification, .icon  {
+    color: #fbbe51;
+  }
+}
+
+.item-notification.yellow-color {
+  .type-notification, .icon  {
+    color: #9f6fac;
+  }
+}
+
+.list-notifications {
+  .item-notification {
+    border-bottom: solid 1px #dedede;
+    display: flex;
+    .wrap-notification-icon {
+      padding-right: 30px;
+      font-size: 26px;
+    }
+    .notification-info {
+      .type-notification {
+        text-transform: uppercase;
+        font-size: 13px;
+      }
+      .messages-notification {
+        font-size: 19px;
+        color: #727272;
+        margin-bottom: 5px;
+      }
+      .status-notifications {
+        .text-status-notifications {
+          font-size: 15px;
+          color: #727272;
+          margin-left: 5px;
+        }
+      }
+    }
+    @media only screen and (max-width: 460px) {
+      padding: 20px;
+      .wrap-notification-icon {
+        padding-right: 10px;
+      }
+      .notification-info .messages-notification {
+        font-size: 17px;
+      }
+      .notification-info .status-notifications .text-status-notifications {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+
 
 
 
