@@ -2,7 +2,7 @@
 @import "custom-bootstrap-style.css";
 @import "faq.css";
 @import "content.css";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 
 * {
   box-sizing: border-box;
@@ -26,7 +26,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 }
 
 
-$dashboard-background: #f3f5f8;
+$dashboard-background: #ceccce;
 
 .btn {
   background-color: #71b526;
@@ -174,7 +174,12 @@ $dashboard-background: #f3f5f8;
     font-size: 20px;
     padding: 10px 15px;
     width: 100%;
+
   }
+  input::-webkit-input-placeholder {font-weight: 300;}
+  input::-moz-placeholder          {font-weight: 300;}
+  input:-moz-placeholder           {font-weight: 300;}
+  input:-ms-input-placeholder      {font-weight: 300;}
 }
 
 .wrap-input.select {
@@ -218,7 +223,7 @@ $dashboard-background: #f3f5f8;
 }
 
 .login {
-  background: #f3f5f8;
+  background: #f8f8f8;
   padding: 60px 0;
   text-align: center;
   h1 {
@@ -233,7 +238,7 @@ $dashboard-background: #f3f5f8;
   .link {
     text-decoration: underline;
     color: #0e1dc0;
-    font-weight: 600;
+    font-weight: 300;
   }
 }
 /*************DASHBOARD******************/
@@ -247,7 +252,7 @@ $dashboard-background: #f3f5f8;
   text-align: center;
   a {
     display: inline-block;
-    padding: 10px 0 15px;
+    padding: 10px;
   }
 }
 
@@ -316,6 +321,7 @@ $dashboard-background: #f3f5f8;
       padding: 10px;
       display: block;
       text-decoration: none;
+      font-weight: 300;
       .icon {
         width: 50px;
         text-align: center;
@@ -364,13 +370,18 @@ $dashboard-background: #f3f5f8;
     line-height: 45px;
     text-align: center;
     padding: 10px 0 10px 0;
-    border-left: solid 2px #f3f5f8;
+    border-left: solid 2px #dadada;
+    @media only screen and (max-width: 767px) {
+      border: none;
+    }
   }
+
 }
 
 .content-section {
   padding-right: 0;
   padding-left: 0;
+  background: #f3f5f8;
   .wrap-btn {
     text-align: center;
   }
@@ -384,6 +395,7 @@ $dashboard-background: #f3f5f8;
     color: #7c7c7c;
     font-size: 16px;
     padding: 10px 30px;
+    background: #f3f5f8;
   }
   .header-list-options.inside {
     padding: 30px 30px 10px 30px;

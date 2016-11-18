@@ -19,9 +19,25 @@ $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip()
     });
 
+//------------maintainSameHeight-----//
+
+    maintainSameHeight($('[data-same-height="aside-content"]'));
+
+    function maintainSameHeight($list) {
+        var height = 0;
+
+        $list.each(function () {
+            var $this = $(this);
+            if ($this.outerHeight() > height) {
+                height = $this.outerHeight();
+            }
+        });
+
+        $list.css("height", height);
+    }
+    
+    
 //------------clear-input-click-cross-btn-----//
-
-
 
     $('.js-clear-input').click(function(){
         $(this).closest('.input-item').children('input').val('');
