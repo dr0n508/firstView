@@ -333,7 +333,54 @@
 .modal-content {
   background: #f3f5f8;
   border: none;
-  text-align: center;
-  padding-bottom: 20px; }
+  text-align: center; }
+
+/******modal-rename-stop******/
+.modal-rename-stop {
+  background: #f8f8f8;
+  position: relative; }
+  .modal-rename-stop .close-modal {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    font-size: 36px;
+    color: #f8f8f8; }
+    .modal-rename-stop .close-modal:hover {
+      cursor: pointer;
+      opacity: .75; }
+  .modal-rename-stop .header-modal {
+    background: #203970;
+    text-align: center;
+    border-radius: 5px 5px 0 0; }
+    .modal-rename-stop .header-modal p {
+      font-size: 20px;
+      color: white;
+      padding: 20px; }
+  .modal-rename-stop form .wrap-input-modal {
+    padding: 20px 10px; }
+    .modal-rename-stop form .wrap-input-modal input {
+      width: 100%;
+      border-radius: 5px;
+      font-size: 20px;
+      padding: 10px;
+      border: solid 1px #c1c1c1; }
+      .modal-rename-stop form .wrap-input-modal input:focus {
+        border: solid 1px #0e1dc0; }
+    .modal-rename-stop form .wrap-input-modal label {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #727272;
+      font-weight: 400; }
+  .modal-rename-stop .wrap-button button {
+    width: 50%;
+    float: left;
+    border: none;
+    padding: 20px 0;
+    background: #f8f8f8;
+    border-top: solid 2px #c1c1c1;
+    font-size: 18px;
+    color: #203970; }
+    .modal-rename-stop .wrap-button button:last-child {
+      border-left: solid 2px #c1c1c1; }
 
 /*# sourceMappingURL=content.css.map */

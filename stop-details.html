@@ -164,16 +164,20 @@
   <!--modal-->
   <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
     <div class="modal-dialog modal-sm" role="document">
-      <div class="modal-content">
-        <span class="icon icon-close-icon" data-dismiss="modal" aria-label="Close"></span>
+      <div class="modal-content modal-rename-stop">
+        <span class="icon icon-close-icon close-modal" data-dismiss="modal" aria-label="Close"></span>
         <div class="header-modal">
           <p>Rename stop</p>
         </div>
         <form action="#">
-          <input type="text" id="new-name-stop">
-          <label for="new-name-stop">Please add a label name for this stop</label>
-          <button type="button" data-dismiss="modal" aria-label="Close">Cancel</button>
-          <button type="submit">Done</button>
+          <div class="wrap-input-modal">
+            <input type="text" id="new-name-stop" value="Amy’s stop">
+            <label for="new-name-stop">Please add a label name for this stop</label>
+          </div>
+          <div class="wrap-button clearfix">
+            <button type="button" data-dismiss="modal" aria-label="Close">Cancel</button>
+            <button type="submit">Done</button>
+          </div>
         </form>
       </div>
     </div>
