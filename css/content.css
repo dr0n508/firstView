@@ -96,14 +96,13 @@
     position: relative;
     background: white;
     padding: 50px 0; }
-    .logo-school .wrap-img:before {
-      content: "Powered by First Student";
-      position: absolute;
-      width: 100px;
-      top: 20px;
-      left: 30px;
-      color: #727272;
-      font-size: 12px; }
+  .logo-school .copywrite {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    color: #727272;
+    font-size: 12px; }
 
 .list-map-stops.first-view-map .wrap-main {
   background: white; }
