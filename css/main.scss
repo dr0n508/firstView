@@ -529,6 +529,22 @@ $dashboard-background: #f3f5f8;
   height: auto;
 }
 
+.owl-theme .owl-controls .owl-page span {
+  background: none;
+  width: 14px;
+  height: 14px;
+  border: solid 2px #203970;
+}
+
+.owl-pagination {
+  .owl-page span {
+
+  }
+  .owl-page.active span {
+    background: #203970;
+  }
+}
+
 .owl-prev.disabled, .owl-next.disabled {
   display: none !important;
 }

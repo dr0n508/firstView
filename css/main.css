@@ -413,6 +413,15 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   width: 100%;
   height: auto; }
 
+.owl-theme .owl-controls .owl-page span {
+  background: none;
+  width: 14px;
+  height: 14px;
+  border: solid 2px #203970; }
+
+.owl-pagination .owl-page.active span {
+  background: #203970; }
+
 .owl-prev.disabled, .owl-next.disabled {
   display: none !important; }
 
