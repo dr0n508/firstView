@@ -269,9 +269,8 @@ $dashboard-background: #ceccce;
 }
 
 .aside {
-  background: url("../img/FS---Navigation-BG.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  padding: 100px 0 80px;
+  background: #131313;
+  padding: 0;
   .user {
     text-align: center;
 
@@ -296,6 +295,12 @@ $dashboard-background: #ceccce;
 /*************menu-dashboard*************/
 .menu-dashboard {
   padding: 40px 10px;
+}
+
+.wap-for-bg {
+  padding: 100px 15px;
+  background: url("../img/FS---Navigation-BG.jpg") no-repeat 50% 0;
+  background-size: cover;
 }
 
 .list-menu-dashboard {

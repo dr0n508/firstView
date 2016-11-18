@@ -217,9 +217,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     height: auto; }
 
 .aside {
-  background: url("../img/FS---Navigation-BG.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  padding: 100px 0 80px; }
+  background: #131313;
+  padding: 0; }
   .aside .user {
     text-align: center; }
     .aside .user .name-user {
@@ -238,6 +237,11 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 /*************menu-dashboard*************/
 .menu-dashboard {
   padding: 40px 10px; }
+
+.wap-for-bg {
+  padding: 100px 15px;
+  background: url("../img/FS---Navigation-BG.jpg") no-repeat 50% 0;
+  background-size: cover; }
 
 .list-menu-dashboard .pointer-notification a {
   position: relative; }
