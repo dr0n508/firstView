@@ -19,6 +19,14 @@ $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip()
     });
 
+//------------clear-input-click-cross-btn-----//
+
+
+
+    $('.js-clear-input').click(function(){
+        $(this).closest('.input-item').children('input').val('');
+    });
+
 //-----------------------------------//
 //------------slider walkthrough-----//
 //-----------------------------------//
