@@ -5,6 +5,13 @@
 .support-text {
   margin-top: 50px; }
 
+.logo-grayscale-FS {
+  text-align: center;
+  padding: 30px 0; }
+  .logo-grayscale-FS img {
+    width: 160px;
+    height: auto; }
+
 .banner-logo {
   text-align: center;
   background: white;
