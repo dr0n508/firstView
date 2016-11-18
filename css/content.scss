@@ -107,6 +107,10 @@
   }
   .btn-settings {
     font-size: 30px;
+    &:hover {
+      color: #9f6fac;
+      transition: .5s;
+    }
   }
   .btn-time-reminder, .btn-distanse-reminder {
     border: solid 2px #4a4a4a;
@@ -115,6 +119,7 @@
     text-align: center;
     padding: 10px 20px;
     border-radius: 20px;
+    transition: .3s;
     &:hover {
       background: #f3f5f8;
     }
@@ -475,6 +480,10 @@
   outline: none;
   font-size: 24px;
   text-align: center;
+  transition: .5s;
+  &:hover {
+    opacity: .8;
+  }
 
 }
 
@@ -547,6 +556,10 @@
       border-top: solid 2px #c1c1c1;
       font-size: 18px;
       color: #203970;
+      transition: .3s;
+      &:hover {
+        background: #c1c1c1;
+      }
       &:last-child {
         border-left: solid 2px #c1c1c1
       }

@@ -23,7 +23,9 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   font-size: 18px;
   font-weight: 400;
   padding: 10px 100px;
-  margin: 20px 0; }
+  margin: 20px 0;
+  border: none;
+  transition: 1s; }
   .btn:hover {
     color: white;
     opacity: .5; }
@@ -263,7 +265,8 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     padding: 10px;
     display: block;
     text-decoration: none;
-    font-weight: 300; }
+    font-weight: 300;
+    transition: .3s; }
     .list-menu-dashboard li a .icon {
       width: 50px;
       text-align: center;

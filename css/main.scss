@@ -36,6 +36,8 @@ $dashboard-background: #ceccce;
   font-weight: 400;
   padding: 10px 100px;
   margin: 20px 0;
+  border: none;
+  transition: 1s;
   &:hover {
     color: white;
     opacity: .5;
@@ -328,6 +330,7 @@ $dashboard-background: #ceccce;
       display: block;
       text-decoration: none;
       font-weight: 300;
+      transition: .3s;
       .icon {
         width: 50px;
         text-align: center;

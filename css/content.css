@@ -77,12 +77,16 @@
     text-align: center; }
   .settings-single-stop .btn-settings {
     font-size: 30px; }
+    .settings-single-stop .btn-settings:hover {
+      color: #9f6fac;
+      transition: .5s; }
   .settings-single-stop .btn-time-reminder, .settings-single-stop .btn-distanse-reminder {
     border: solid 2px #4a4a4a; }
   .settings-single-stop .btn-time-reminder, .settings-single-stop .btn-distanse-reminder, .settings-single-stop .btn-remove-stop {
     text-align: center;
     padding: 10px 20px;
-    border-radius: 20px; }
+    border-radius: 20px;
+    transition: .3s; }
     .settings-single-stop .btn-time-reminder:hover, .settings-single-stop .btn-distanse-reminder:hover, .settings-single-stop .btn-remove-stop:hover {
       background: #f3f5f8; }
   .settings-single-stop .btn-remove-stop {
@@ -328,7 +332,10 @@
   border: none;
   outline: none;
   font-size: 24px;
-  text-align: center; }
+  text-align: center;
+  transition: .5s; }
+  .btn-slider:hover {
+    opacity: .8; }
 
 .modal-content {
   background: #f3f5f8;
@@ -379,7 +386,10 @@
     background: #f8f8f8;
     border-top: solid 2px #c1c1c1;
     font-size: 18px;
-    color: #203970; }
+    color: #203970;
+    transition: .3s; }
+    .modal-rename-stop .wrap-button button:hover {
+      background: #c1c1c1; }
     .modal-rename-stop .wrap-button button:last-child {
       border-left: solid 2px #c1c1c1; }
 
