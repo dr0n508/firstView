@@ -91,37 +91,39 @@
   <section class="dashboard">
     <div class="container-fluid">
       <aside class="aside col-sm-4 hidden-xs" data-same-height="aside-content">
-        <div class="user">
-          <div class="avatar">
-            <img src="img/avatar.jpg" alt="user profile image">
+        <div class="wap-for-bg">
+          <div class="user">
+            <div class="avatar">
+              <img src="img/avatar.jpg" alt="user profile image">
+            </div>
+            <p class="name-user">Eamonn</p>
           </div>
-          <p class="name-user">Eamonn</p>
+
+          <nav class="menu-dashboard">
+            <ul class="list-menu-dashboard">
+              <li>
+                <a href="#" class="active"><span class="icon icon-profile-icon"></span>Profile</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon icon-stop-pin"></span>Map</a>
+              </li>
+              <li class="pointer-notification">
+                <a href="#"><span class="icon icon-notification-icon"></span>Notification</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon icon-settings-icon"></span>Settings</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon icon-help-icon"></span>Help</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon icon-logout-icon"></span>Log out</a>
+              </li>
+            </ul>
+          </nav>
+
+          <p class="copywrite">Povered by <span>First Student</span></p>
         </div>
-
-        <nav class="menu-dashboard">
-          <ul class="list-menu-dashboard">
-            <li>
-              <a href="#" class="active"><span class="icon icon-profile-icon"></span>Profile</a>
-            </li>
-            <li>
-              <a href="#"><span class="icon icon-stop-pin"></span>Map</a>
-            </li>
-            <li class="pointer-notification">
-              <a href="#"><span class="icon icon-notification-icon"></span>Notification</a>
-            </li>
-            <li>
-              <a href="#"><span class="icon icon-settings-icon"></span>Settings</a>
-            </li>
-            <li>
-              <a href="#"><span class="icon icon-help-icon"></span>Help</a>
-            </li>
-            <li>
-              <a href="#"><span class="icon icon-logout-icon"></span>Log out</a>
-            </li>
-          </ul>
-        </nav>
-
-        <p class="copywrite">Povered by <span>First Student</span></p>
       </aside>
 
       <section class="content-section col-sm-8" data-same-height="aside-content">
@@ -135,14 +137,14 @@
             <div class="panel panel-default">
               <div class="panel-heading" role="tab" id="headingQ1">
                 <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#faq" href="#q1" aria-expanded="false" aria-controls="q1">
+                  <a role="button" data-toggle="collapse" data-parent="#faq" href="#q1" aria-expanded="true" aria-controls="q1">
                     How can I follow my student’s stop?
                     <span class="icon icon-down-icon"></span>
                     <span class="icon icon-back-icon"></span>
                   </a>
                 </h4>
               </div>
-              <div id="q1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingQ1">
+              <div id="q1" class="panel-collapse collapse in" role="tabpanel" aria-expanded="true" aria-labelledby="headingQ1">
                 <div class="panel-body">
                   Following your student’s stop is the most important part of FirstView™; it’s how FirstView™ works for you. From the Profile screen, scroll down and select “Follow A Stop.” Choose the proper state and school district, then insert the ID of the student associated with that stop and select “Done.” The stop will appear on your Profile screen under “Student Stops.”
                 </div>
