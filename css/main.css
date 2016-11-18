@@ -38,40 +38,64 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   padding: 10px 0 15px; }
   .header-login-sign-up .logo {
     text-align: center; }
-  .header-login-sign-up .social-links {
-    margin-top: 15px; }
-    .header-login-sign-up .social-links li {
-      display: inline-block; }
-      .header-login-sign-up .social-links li a {
-        text-indent: -9999px;
-        width: 26px;
-        height: 26px;
-        display: block;
-        background-size: cover; }
-        .header-login-sign-up .social-links li a:hover {
-          opacity: .5; }
-    .header-login-sign-up .social-links .facebook-social a {
-      background: url("../img/social-icons/facebook.png") no-repeat;
-      background-size: 100% 100%; }
-    .header-login-sign-up .social-links .twitter-social a {
-      background: url("../img/social-icons/twitter.png") no-repeat;
-      background-size: 100% 100%; }
-    .header-login-sign-up .social-links .vimeo-social a {
-      background: url("../img/social-icons/vimeo.png") no-repeat;
-      background-size: 100% 100%; }
-    .header-login-sign-up .social-links .youtube-social a {
-      background: url("../img/social-icons/youtube.png") no-repeat;
-      background-size: 100% 100%; }
-    .header-login-sign-up .social-links .instagram-social a {
-      background: url("../img/social-icons/instagram.png") no-repeat;
-      background-size: 100% 100%; }
-    .header-login-sign-up .social-links .linkedin-social a {
-      background: url("../img/social-icons/linkedin.png") no-repeat;
-      background-size: 100% 100%; }
-  @media only screen and (max-width: 772px) {
-    .header-login-sign-up .social-links {
-      text-align: center; } }
 
+.social-links.big li a {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px; }
+.social-links.big .facebook-social a {
+  background: url("../img/social-icons-big/facebook.png") no-repeat;
+  background-size: 100% 100%; }
+.social-links.big .twitter-social a {
+  background: url("../img/social-icons-big/twitter.png") no-repeat;
+  background-size: 100% 100%; }
+.social-links.big .vimeo-social a {
+  background: url("../img/social-icons-big/vimeo.png") no-repeat;
+  background-size: 100% 100%; }
+.social-links.big .youtube-social a {
+  background: url("../img/social-icons-big/youtube.png") no-repeat;
+  background-size: 100% 100%; }
+.social-links.big .instagram-social a {
+  background: url("../img/social-icons-big/instagram.png") no-repeat;
+  background-size: 100% 100%; }
+.social-links.big .linkedin-social a {
+  background: url("../img/social-icons-big/linkedin.png") no-repeat;
+  background-size: 100% 100%; }
+
+.social-links {
+  margin-top: 15px; }
+  .social-links li {
+    display: inline-block; }
+    .social-links li a {
+      text-indent: -9999px;
+      width: 26px;
+      height: 26px;
+      display: block;
+      background-size: cover; }
+      .social-links li a:hover {
+        opacity: .5; }
+  .social-links .facebook-social a {
+    background: url("../img/social-icons/facebook.png") no-repeat;
+    background-size: 100% 100%; }
+  .social-links .twitter-social a {
+    background: url("../img/social-icons/twitter.png") no-repeat;
+    background-size: 100% 100%; }
+  .social-links .vimeo-social a {
+    background: url("../img/social-icons/vimeo.png") no-repeat;
+    background-size: 100% 100%; }
+  .social-links .youtube-social a {
+    background: url("../img/social-icons/youtube.png") no-repeat;
+    background-size: 100% 100%; }
+  .social-links .instagram-social a {
+    background: url("../img/social-icons/instagram.png") no-repeat;
+    background-size: 100% 100%; }
+  .social-links .linkedin-social a {
+    background: url("../img/social-icons/linkedin.png") no-repeat;
+    background-size: 100% 100%; }
+
+@media only screen and (max-width: 772px) {
+  .social-links {
+    text-align: center; } }
 .header-profile {
   -webkit-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
   -moz-box-shadow: 0 2px 5px 0 rgba(1, 1, 1, 0.25);
