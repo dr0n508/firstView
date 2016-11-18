@@ -29,5 +29,11 @@
         float: right;
         font-size: 10px;
         color: #b1b1b1; }
+      .panel-default > .panel-heading .panel-title a .icon-back-icon {
+        font-size: 16px; }
+    .panel-default > .panel-heading .panel-title a[aria-expanded="true"] .icon-down-icon {
+      display: none; }
+    .panel-default > .panel-heading .panel-title a[aria-expanded="false"] .icon-back-icon {
+      display: none; }
 
 /*# sourceMappingURL=faq.css.map */

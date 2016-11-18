@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?2p8ohq');
-  src:  url('../fonts/icomoon.eot?2p8ohq#iefix') format('embedded-opentype'),
-  url('../fonts/icomoon.ttf?2p8ohq') format('truetype'),
-  url('../fonts/icomoon.woff?2p8ohq') format('woff'),
-  url('../fonts/icomoon.svg?2p8ohq#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?j32y9p');
+  src:  url('../fonts/icomoon.eot?j32y9p#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?j32y9p') format('truetype'),
+  url('../fonts/icomoon.woff?j32y9p') format('woff'),
+  url('../fonts/icomoon.svg?j32y9p#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-back-icon:before {
+  content: "\e900";
+}
 .icon-down-icon:before {
   content: "\e911";
 }
@@ -35,9 +38,6 @@
 }
 .icon-stop-pin:before {
   content: "\e90f";
-}
-.icon-back-icon:before {
-  content: "\e900";
 }
 .icon-clock-icon:before {
   content: "\e901";

@@ -34,7 +34,12 @@
         font-size: 10px;
         color: #b1b1b1;
       }
+      .icon-back-icon {
+        font-size: 16px;
+      }
     }
+    a[aria-expanded="true"] .icon-down-icon { display: none};
+    a[aria-expanded="false"] .icon-back-icon { display: none}
   }
 }
 
