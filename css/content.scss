@@ -225,7 +225,7 @@
 }
 
 .wrap-left-time {
-  padding: 10px;
+  padding: 10px 0 10px 10px;
   position: relative;
   text-align: center;
   display: inline-block;
@@ -238,11 +238,11 @@
 
   }
   .label-left-time {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -8px;
-    margin-left: -25px;
+    //position: absolute;
+    //top: 50%;
+    //left: 50%;
+    //margin-top: -8px;
+    //margin-left: -25px;
     color: white;
     font-size: 12px;
     text-transform: uppercase;
@@ -291,6 +291,9 @@
     background: #f3f5f8;
     padding: 7px 0;
     color: #2cb5ad;
+  }
+  .icon-stop-pin {
+    left: -5px;
   }
   .name-stop {
     position: relative;
