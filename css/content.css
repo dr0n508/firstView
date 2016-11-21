@@ -54,15 +54,20 @@
 /******stop-details******/
 .settings-single-stop {
   margin: 20px;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 50px;
   background: white;
-  border-radius: 10px; }
+  border-radius: 10px;
+  position: relative; }
+  .settings-single-stop .icon {
+    position: absolute;
+    font-size: 30px;
+    left: 10px;
+    top: 50%;
+    margin-top: -15px; }
   .settings-single-stop ul li {
     padding: 0 5px;
     float: left;
-    width: 30%; }
-    .settings-single-stop ul li:first-child {
-      width: 10%; }
+    width: 33.3%; }
   @media only screen and (max-width: 460px) {
     .settings-single-stop ul li {
       width: 100% !important;
@@ -77,9 +82,6 @@
     text-align: center; }
   .settings-single-stop .btn-settings {
     font-size: 30px; }
-    .settings-single-stop .btn-settings:hover {
-      color: #9f6fac;
-      transition: .5s; }
   .settings-single-stop .btn-time-reminder, .settings-single-stop .btn-distanse-reminder {
     border: solid 2px #4a4a4a; }
   .settings-single-stop .btn-time-reminder, .settings-single-stop .btn-distanse-reminder, .settings-single-stop .btn-remove-stop {

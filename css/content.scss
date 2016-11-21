@@ -73,18 +73,22 @@
 
 .settings-single-stop {
   margin: 20px;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 50px;
   background: white;
   border-radius: 10px;
+  position: relative;
+  .icon {
+    position: absolute;
+    font-size: 30px;
+    left: 10px;
+    top: 50%;
+    margin-top: -15px;
+  }
   ul {
     li {
       padding: 0 5px;
       float: left;
-      width: 30%;
-
-      &:first-child {
-        width: 10%;
-      }
+      width: 33.3%;
     }
     @media only screen and (max-width: 460px) {
       li {
@@ -107,10 +111,6 @@
   }
   .btn-settings {
     font-size: 30px;
-    &:hover {
-      color: #9f6fac;
-      transition: .5s;
-    }
   }
   .btn-time-reminder, .btn-distanse-reminder {
     border: solid 2px #4a4a4a;
@@ -491,16 +491,12 @@
   background: #f3f5f8;
   border: none;
   text-align: center;
-  //padding-bottom: 20px;
-
 }
 
 /******modal-stop-details******/
 .modal-stop-details {
-  //overflow: hidden;
   background: #f8f8f8;
   position: relative;
-  //z-index: 5;
   .close-modal {
     position: absolute;
     top: -18px;
@@ -543,19 +539,6 @@
         font-weight: 400;
       }
     }
-    //.wrap-input-radio {
-    //  padding: 10px 20px;
-    //  margin: 0 50px;
-    //  border-bottom: solid 2px #c1c1c1;
-    //  &:last-child {
-    //    border: none;
-    //  }
-    //  label {
-    //    font-size: 18px;
-    //    color: #727272;
-    //    margin-left: 5px;
-    //  }
-    //}
   }
   .wrap-content {
     padding: 20px;

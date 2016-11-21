@@ -314,6 +314,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 .content-section {
   padding-right: 0;
   padding-left: 0;
+  padding-bottom: 5px;
   background: #f3f5f8; }
   .content-section .wrap-btn {
     text-align: center; }
