@@ -342,55 +342,96 @@
   border: none;
   text-align: center; }
 
-/******modal-rename-stop******/
-.modal-rename-stop {
+/******modal-stop-details******/
+.modal-stop-details {
   background: #f8f8f8;
   position: relative; }
-  .modal-rename-stop .close-modal {
+  .modal-stop-details .close-modal {
     position: absolute;
     top: -18px;
     right: -18px;
     font-size: 36px;
     color: #f8f8f8; }
-    .modal-rename-stop .close-modal:hover {
+    .modal-stop-details .close-modal:hover {
       cursor: pointer;
       opacity: .75; }
-  .modal-rename-stop .header-modal {
+  .modal-stop-details .header-modal {
     background: #203970;
     text-align: center;
     border-radius: 5px 5px 0 0; }
-    .modal-rename-stop .header-modal p {
+    .modal-stop-details .header-modal p {
       font-size: 20px;
       color: white;
       padding: 20px; }
-  .modal-rename-stop form .wrap-input-modal {
+  .modal-stop-details form .wrap-input-modal {
     padding: 20px 10px; }
-    .modal-rename-stop form .wrap-input-modal input {
+    .modal-stop-details form .wrap-input-modal input[type=text] {
       width: 100%;
       border-radius: 5px;
       font-size: 20px;
       padding: 10px;
       border: solid 1px #c1c1c1; }
-      .modal-rename-stop form .wrap-input-modal input:focus {
+      .modal-stop-details form .wrap-input-modal input[type=text]:focus {
         border: solid 1px #0e1dc0; }
-    .modal-rename-stop form .wrap-input-modal label {
+    .modal-stop-details form .wrap-input-modal label {
       margin-top: 10px;
       font-size: 14px;
       color: #727272;
       font-weight: 400; }
-  .modal-rename-stop .wrap-button button {
+  .modal-stop-details .wrap-content {
+    padding: 20px; }
+  .modal-stop-details .text-modal {
+    color: #727272; }
+  .modal-stop-details .wrap-button button {
     width: 50%;
     float: left;
     border: none;
     padding: 20px 0;
     background: #f8f8f8;
-    border-top: solid 2px #c1c1c1;
+    border-top: solid 2px #dedede;
     font-size: 18px;
     color: #203970;
     transition: .3s; }
-    .modal-rename-stop .wrap-button button:hover {
-      background: #c1c1c1; }
-    .modal-rename-stop .wrap-button button:last-child {
-      border-left: solid 2px #c1c1c1; }
+    .modal-stop-details .wrap-button button:hover {
+      background: #dedede; }
+    .modal-stop-details .wrap-button button:last-child {
+      border-left: solid 2px #dedede; }
+  .modal-stop-details .wrap-button .button-bold {
+    font-weight: 600; }
+
+/*****custom input radio*********/
+.wrap-custom-input-radio {
+  position: relative;
+  padding: 10px 20px;
+  margin: 0 40px;
+  border-bottom: solid 2px #dedede; }
+  .wrap-custom-input-radio:last-child {
+    border: none; }
+  .wrap-custom-input-radio .text-label {
+    font-size: 18px;
+    color: #727272;
+    margin-left: 10px; }
+
+.radio-custom:not(checked) {
+  position: absolute;
+  opacity: 0; }
+
+.radio-custom:checked + label .inside {
+  width: 10px;
+  height: 10px;
+  margin: 4px auto 0;
+  border-radius: 50%;
+  display: block;
+  background: #203970; }
+
+.radio-custom-label {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid 1px #c1c1c1;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px; }
 
 /*# sourceMappingURL=content.css.map */

@@ -495,9 +495,8 @@
 
 }
 
-
-/******modal-rename-stop******/
-.modal-rename-stop {
+/******modal-stop-details******/
+.modal-stop-details {
   //overflow: hidden;
   background: #f8f8f8;
   position: relative;
@@ -527,7 +526,7 @@
   form {
     .wrap-input-modal {
       padding: 20px 10px;
-      input {
+      input[type=text] {
         width: 100%;
         border-radius: 5px;
         font-size: 20px;
@@ -544,7 +543,26 @@
         font-weight: 400;
       }
     }
+    //.wrap-input-radio {
+    //  padding: 10px 20px;
+    //  margin: 0 50px;
+    //  border-bottom: solid 2px #c1c1c1;
+    //  &:last-child {
+    //    border: none;
+    //  }
+    //  label {
+    //    font-size: 18px;
+    //    color: #727272;
+    //    margin-left: 5px;
+    //  }
+    //}
+  }
+  .wrap-content {
+    padding: 20px;
 
+  }
+  .text-modal {
+    color: #727272;
   }
   .wrap-button {
     button {
@@ -553,18 +571,64 @@
       border: none;
       padding: 20px 0;
       background: #f8f8f8;
-      border-top: solid 2px #c1c1c1;
+      border-top: solid 2px #dedede;
       font-size: 18px;
       color: #203970;
       transition: .3s;
       &:hover {
-        background: #c1c1c1;
+        background: #dedede;
       }
       &:last-child {
-        border-left: solid 2px #c1c1c1
+        border-left: solid 2px #dedede
       }
     }
+    .button-bold {
+      font-weight: 600;
+    }
   }
+}
+
+
+/*****custom input radio*********/
+
+.wrap-custom-input-radio {
+  position: relative;
+  padding: 10px 20px;
+  margin: 0 40px;
+  border-bottom: solid 2px #dedede;
+  &:last-child {
+    border: none;
+  }
+  .text-label {
+    font-size: 18px;
+    color: #727272;
+    margin-left: 10px;
+  }
+}
+.radio-custom:not(checked){
+  position: absolute;
+  opacity: 0;
+}
+
+.radio-custom:checked + label {
+  .inside {
+    width: 10px;
+    height: 10px;
+    margin: 4px auto 0;
+    border-radius: 50%;
+    display: block;
+    background: #203970;
+  }
+}
+.radio-custom-label {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid 1px #c1c1c1;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
 }
 
 
