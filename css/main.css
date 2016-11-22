@@ -129,7 +129,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   .wrap-input .icon {
     color: #727272;
     font-size: 20px;
-    padding: 15px 0;
+    padding: 15px;
     text-align: center;
     width: 60px;
     background-color: #d8d8d8; }
@@ -146,6 +146,15 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
     font-weight: 300; }
   .wrap-input input:-ms-input-placeholder {
     font-weight: 300; }
+  @media only screen and (max-width: 460px) {
+    .wrap-input input::-webkit-input-placeholder {
+      font-size: 16px; }
+    .wrap-input input::-moz-placeholder {
+      font-size: 16px; }
+    .wrap-input input:-moz-placeholder {
+      font-size: 16px; }
+    .wrap-input input:-ms-input-placeholder {
+      font-weight: 300; } }
 
 .wrap-input.select {
   border: solid 1px #d8d8d8;

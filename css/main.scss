@@ -166,7 +166,7 @@ $dashboard-background: #ceccce;
   .icon {
     color: #727272;
     font-size: 20px;
-    padding: 15px 0;
+    padding: 15px;
     text-align: center;
     width: 60px;
     background-color: #d8d8d8;
@@ -182,6 +182,12 @@ $dashboard-background: #ceccce;
   input::-moz-placeholder          {font-weight: 300;}
   input:-moz-placeholder           {font-weight: 300;}
   input:-ms-input-placeholder      {font-weight: 300;}
+  @media only screen and (max-width: 460px) {
+    input::-webkit-input-placeholder {font-size: 16px;}
+    input::-moz-placeholder          {font-size: 16px;}
+    input:-moz-placeholder           {font-size: 16px;}
+    input:-ms-input-placeholder      {font-size: 16px;}
+  }
 }
 
 .wrap-input.select {
